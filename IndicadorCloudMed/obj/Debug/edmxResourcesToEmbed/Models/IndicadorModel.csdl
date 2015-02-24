@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="IndicadorCloudMedModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Autorizacoes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdEmpresa" Type="Int32" Nullable="false" />
+    <Property Name="NomeEmpresa" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Sequencia" Type="Int32" Nullable="false" />
+    <Property Name="DataHora" Type="DateTime" Precision="3" />
+    <Property Name="codCartao" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="codLocal" Type="Int32" />
+    <Property Name="codAtendente" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="codPrestador" Type="Int32" />
+    <Property Name="codEspec" Type="Int32" />
+    <Property Name="codSolicitante" Type="Int32" />
+    <Property Name="codAMB" Type="Int32" />
+    <Property Name="qtdeAMB" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="codCID" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="vlrAdicional" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="descVlrAdicional" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="codStatus" Type="Int32" />
+    <Property Name="nrGuia" Type="Int64" />
+    <Property Name="nomePaciente" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="nomePlano" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="nomeEmpresaSass" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Comentario" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="msgAutorizador" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="EnvioTISS" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="StringEnvio" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="StringRetorno" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ViaCartao" Type="Int32" />
+    <Property Name="DadosTISS" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Documentos">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdEmpresa" Type="Int32" Nullable="false" />
+    <Property Name="NomeEmpresa" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="docNumSerie" Type="Int64" Nullable="false" />
+    <Property Name="docTitulo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="docDataArquivamento" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="docQtdePag" Type="Int32" />
+    <Property Name="docTamanho" Type="Int64" />
+    <Property Name="docProprietario" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="docStatus" Type="Int32" Nullable="false" />
+    <Property Name="docFileNameDocumento" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="docExtensaoArquivo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="docNomeOriginalArquivo" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Orcamentos">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdEmpresa" Type="Int32" Nullable="false" />
+    <Property Name="NomeEmpresa" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="IDOrcamento" Type="Int32" Nullable="false" />
+    <Property Name="IDCentralCompras" Type="Int32" Nullable="false" />
+    <Property Name="IDComprador" Type="Int32" Nullable="false" />
+    <Property Name="DataPedidoOrcamento" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="PrazoFinalOrcamento" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Status" Type="Int32" Nullable="false" />
+    <Property Name="HistoricoOrcamento" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ValoresFornecedores" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ProdutosSolicitados" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="TipoOrcamento" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="XMLDetalhesOrcamento" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="DataUltimaAlteracao" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="IDCompradorOrigem" Type="Int32" />
+    <Property Name="CodPaciente" Type="String" MaxLength="18" FixedLength="false" Unicode="false" />
+    <Property Name="NomePaciente" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Protocolos">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdEmpresa" Type="Int32" Nullable="false" />
+    <Property Name="NomeEmpresa" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="codProtocolo" Type="String" MaxLength="16" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="dataHoraSolicitacao" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="TipoProduto" Type="String" MaxLength="1" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Status" Type="String" MaxLength="2" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CodBeneficiario" Type="String" MaxLength="17" FixedLength="false" Unicode="false" />
+    <Property Name="NomeBeneficiario" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="UnimedSolicitante" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Validacoes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdEmpresa" Type="Int32" Nullable="false" />
+    <Property Name="NomeEmpresa" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="IdArquivo" Type="Int32" Nullable="false" />
+    <Property Name="CodUnimedEnvio" Type="Int64" Nullable="false" />
+    <Property Name="NomeOriginalArquivo" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Historico" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="DataEnvio" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="DataDownload" Type="DateTime" Precision="3" />
+    <Property Name="LoginResponsavel" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="XML" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Status" Type="Int16" Nullable="false" />
+    <Property Name="CaminhoArquivo" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CodigoArquivo" Type="Int64" />
+    <Property Name="CodUnimedDestino" Type="Int32" Nullable="false" />
+    <Property Name="HashDoArquivo" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="StatusDoProtocolo" Type="Int16" />
+    <Property Name="VersaoDoSchema" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TipoDeGuia" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="EmailEnviado" Type="Int16" />
+    <Property Name="NomePrestadorEnvio" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="IndicadorCloudMedEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Autorizacoes" EntityType="Self.Autorizacoes" />
+    <EntitySet Name="Documentos" EntityType="Self.Documentos" />
+    <EntitySet Name="Orcamentos" EntityType="Self.Orcamentos" />
+    <EntitySet Name="Protocolos" EntityType="Self.Protocolos" />
+    <EntitySet Name="Validacoes" EntityType="Self.Validacoes" />
+  </EntityContainer>
+</Schema>

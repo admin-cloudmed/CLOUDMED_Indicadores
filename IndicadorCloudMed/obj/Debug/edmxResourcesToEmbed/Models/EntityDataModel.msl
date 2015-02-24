@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="GedIndicadoresModelStoreContainer" CdmEntityContainer="Entities">
+    <EntitySetMapping Name="Documentos">
+      <EntityTypeMapping TypeName="GedIndicadoresModel.Documentos">
+        <MappingFragment StoreEntitySet="Documentos">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IdEmpresa" ColumnName="IdEmpresa" />
+          <ScalarProperty Name="NomeEmpresa" ColumnName="NomeEmpresa" />
+          <ScalarProperty Name="docNumSerie" ColumnName="docNumSerie" />
+          <ScalarProperty Name="docTitulo" ColumnName="docTitulo" />
+          <ScalarProperty Name="docDataArquivamento" ColumnName="docDataArquivamento" />
+          <ScalarProperty Name="docQtdePag" ColumnName="docQtdePag" />
+          <ScalarProperty Name="docTamanho" ColumnName="docTamanho" />
+          <ScalarProperty Name="docProprietario" ColumnName="docProprietario" />
+          <ScalarProperty Name="docStatus" ColumnName="docStatus" />
+          <ScalarProperty Name="docFileNameDocumento" ColumnName="docFileNameDocumento" />
+          <ScalarProperty Name="docExtensaoArquivo" ColumnName="docExtensaoArquivo" />
+          <ScalarProperty Name="docNomeOriginalArquivo" ColumnName="docNomeOriginalArquivo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

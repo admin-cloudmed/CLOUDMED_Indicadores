@@ -1,0 +1,56 @@
+﻿@{
+    Layout = null;
+}
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<div class="container">
+    <div class="progress progress-striped active">
+        <div class="bar" style="width: 0%;"></div>
+    </div>
+</div>
+
+<style type="text/css">
+    @@import url('//netdna.bootstrapcdn.com/bootstrap/2.3.2/css/bootstrap.min.css');
+    .container {
+        margin-top: 30px;
+        width: 400px;
+    }
+</style>
+
+
+<script type="text/javascript" language="javascript">
+    try {
+        var progress = setInterval(function () {
+            var $bar = $('.bar'); 
+                if ($bar.width() == 400) {
+                    clearInterval(progress);
+                    $('.progress').removeClass('active');
+                }
+                else {
+                    $bar.width($bar.width() + 200);
+                }
+            }, 200);
+
+        var params = {}, queryString = location.hash.substring(1), regex = /([^&=]+)=([^&]*)/g, m;
+
+        while (m = regex.exec(queryString))
+        {
+            params[decodeURIComponent(m[1])] = decodeURIComponent(m[2]);
+        }
+
+        var ss = queryString.split("&")
+        ss[1].replace("access_token=", "")
+        var form = document.createElement("form");
+        form.setAttribute("method", "post");
+        form.setAttribute("action", "Access");
+        var hiddenField = document.createElement("input");
+        hiddenField.setAttribute("type", "hidden");
+        hiddenField.setAttribute("name", "access_token");
+        hiddenField.setAttribute("value", ss[1]);
+        form.appendChild(hiddenField);
+        document.body.appendChild(form);
+        form.submit();
+    }
+    catch (exp) {
+        alert(exp.message + " !!!!");
+    }
+</script>

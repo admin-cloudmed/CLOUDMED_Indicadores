@@ -1,0 +1,298 @@
+﻿/* Bugs JS */
+a {
+    text-decoration: none;
+}
+
+#ui-datepicker-div {
+    font-size: 10px;
+}
+
+.ui-autocomplete {
+    max-height: 200px;
+    overflow-y: auto;
+    /* prevent horizontal scrollbar */
+    overflow-x: hidden;
+    border: 1px solid #222;
+    position: absolute;
+}
+
+
+/* Header */
+header {
+    color: black;
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    font-size: 2.3em;
+    margin-left: 20%;
+}
+
+    header h2 {
+        font-weight: lighter;
+    }
+
+/* Body */
+body {
+    font: normal 13px/1.3 "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+
+/*  Responsive layout limit 983 pixels */
+@media screen and (max-width: 983px) {
+    .active {
+        display: block;
+    }
+
+    .nav > li {
+        float: none;
+    }
+
+        .nav > li.last {
+            margin-right: 5px;
+        }
+
+        .nav > li > .parent {
+            background-position: 95% 50%;
+        }
+
+    .nav li li .parent {
+        background-image: url("images/downArrow.png");
+        background-repeat: no-repeat;
+        background-position: 95% 50%;
+    }
+
+    .nav ul {
+        display: block;
+        width: 100%;
+    }
+
+    .nav > li.hover > ul, .nav li li.hover ul {
+        position: static;
+    }
+
+    .containerm {
+        position: absolute;
+        clear: both;
+    }
+
+    .footer {
+        opacity: 0;
+        z-index: -99;
+    }
+}
+
+
+/* Content */
+#container {
+    margin: auto;
+    padding: 0;
+    list-style: none;
+    background: transparent;
+    width: 90%;
+    height: 100%;
+}
+
+    #container h2 {
+        font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+        font-weight: lighter;
+        text-decoration: none;
+        font-size: 25px;
+        float: left;
+    }
+
+    #container h3 {
+        font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+        font-weight: lighter;
+        text-decoration: none;
+        font-size: 20px;
+        float: left;
+    }
+
+
+/*  Sections  */
+.section {
+    clear: both;
+    padding: 0px;
+    margin: 0px;
+}
+
+/*  Column Setup  */
+.col {
+    display: block;
+    float: left;
+    margin: 1% 0 1% 1.6%;
+}
+
+    .col:first-child {
+        margin-left: 0;
+    }
+
+/*  Grouping  */
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+
+.group:after {
+    clear: both;
+}
+
+
+/*  Responsive Object  */
+.span_100 {
+    width: 97%;
+}
+
+.span_75 {
+    width: 75%;
+}
+
+.span_70 {
+    width: 70%;
+}
+
+.span_65 {
+    width: 65%;
+}
+
+.span_49 {
+    width: 45%;
+}
+
+.span_40 {
+    width: 40%;
+}
+
+.span_32 {
+    width: 32%;
+}
+
+.span_25 {
+    width: 25%;
+}
+
+.span_23 {
+    width: 23%;
+}
+
+.span_21 {
+    width: 21%;
+}
+
+.span_12 {
+    width: 12%;
+}
+
+.span_6 {
+    width: 6%;
+}
+/*  Responsive limit 983 pixels */
+@media only screen and (max-width: 983px) {
+    .col {
+        margin: 1% 0 1% 0%;
+    }
+
+    footer {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 983px) {
+
+    .span_100 {
+        width: 100%;
+    }
+
+    .span_75 {
+        width: 100%;
+    }
+
+    .span_70 {
+        width: 100%;
+    }
+
+    .span_65 {
+        width: 100%;
+    }
+
+    .span_49 {
+        width: 100%;
+    }
+
+    .span_40 {
+        width: 100%;
+    }
+
+    .span_32 {
+        width: 100%;
+    }
+
+    .span_25 {
+        width: 100%;
+    }
+
+    .span_23 {
+        width: 100%;
+    }
+
+    .span_21 {
+        width: 100%;
+    }
+
+    .span_12 {
+        width: 100%;
+    }
+
+    .span_6 {
+        width: 100%;
+    }
+}
+
+/*  Forms */
+input {
+    width: 100px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+    padding: 8px 15px;
+    border: 1px solid #3079ed;
+    color: #fff;
+    text-shadow: 0 1px rgba(0,0,0,0.1);
+    background-color: #4d90fe;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#4d90fe),to(#4787ed));
+    background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+    background-image: -moz-linear-gradient(top,#4d90fe,#4787ed);
+    background-image: -ms-linear-gradient(top,#4d90fe,#4787ed);
+    background-image: -o-linear-gradient(top,#4d90fe,#4787ed);
+    background-image: linear-gradient(top,#4d90fe,#4787ed);
+}
+
+    button:hover {
+        background-color: #3079ed;
+        background-image: none;
+        color: #fff;
+    }
+
+/* Footer */
+footer {
+    margin-top: 10px;
+    border-top: 1px solid black;
+    height: 70px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    background: #F1F1F1;
+    z-index: 2;
+    position: fixed;
+    padding: 0px;
+    width: 100%;
+}
+
+    footer p {
+        color: white;
+        float: right;
+        margin-right: 10%;
+    }

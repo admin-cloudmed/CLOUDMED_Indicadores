@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="IndicadorCloudMedModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Autorizacoes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdEmpresa" Type="int" Nullable="false" />
+    <Property Name="NomeEmpresa" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="Sequencia" Type="int" Nullable="false" />
+    <Property Name="DataHora" Type="datetime" />
+    <Property Name="codCartao" Type="varchar" MaxLength="20" />
+    <Property Name="codLocal" Type="int" />
+    <Property Name="codAtendente" Type="varchar" MaxLength="50" />
+    <Property Name="codPrestador" Type="int" />
+    <Property Name="codEspec" Type="int" />
+    <Property Name="codSolicitante" Type="int" />
+    <Property Name="codAMB" Type="int" />
+    <Property Name="qtdeAMB" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="codCID" Type="varchar" MaxLength="10" />
+    <Property Name="vlrAdicional" Type="money" />
+    <Property Name="descVlrAdicional" Type="varchar" MaxLength="100" />
+    <Property Name="codStatus" Type="int" />
+    <Property Name="nrGuia" Type="bigint" />
+    <Property Name="nomePaciente" Type="varchar" MaxLength="50" />
+    <Property Name="nomePlano" Type="varchar" MaxLength="50" />
+    <Property Name="nomeEmpresaSass" Type="varchar" MaxLength="50" />
+    <Property Name="Comentario" Type="varchar" MaxLength="50" />
+    <Property Name="msgAutorizador" Type="varchar" MaxLength="200" />
+    <Property Name="EnvioTISS" Type="varchar" MaxLength="50" />
+    <Property Name="StringEnvio" Type="ntext" />
+    <Property Name="StringRetorno" Type="ntext" />
+    <Property Name="ViaCartao" Type="int" />
+    <Property Name="DadosTISS" Type="ntext" />
+  </EntityType>
+  <EntityType Name="Documentos">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdEmpresa" Type="int" Nullable="false" />
+    <Property Name="NomeEmpresa" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="docNumSerie" Type="bigint" Nullable="false" />
+    <Property Name="docTitulo" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="docDataArquivamento" Type="datetime" Nullable="false" />
+    <Property Name="docQtdePag" Type="int" />
+    <Property Name="docTamanho" Type="bigint" />
+    <Property Name="docProprietario" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="docStatus" Type="int" Nullable="false" />
+    <Property Name="docFileNameDocumento" Type="varchar" MaxLength="500" />
+    <Property Name="docExtensaoArquivo" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="docNomeOriginalArquivo" Type="varchar" MaxLength="200" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Orcamentos">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdEmpresa" Type="int" Nullable="false" />
+    <Property Name="NomeEmpresa" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="IDOrcamento" Type="int" Nullable="false" />
+    <Property Name="IDCentralCompras" Type="int" Nullable="false" />
+    <Property Name="IDComprador" Type="int" Nullable="false" />
+    <Property Name="DataPedidoOrcamento" Type="datetime" Nullable="false" />
+    <Property Name="PrazoFinalOrcamento" Type="datetime" Nullable="false" />
+    <Property Name="Status" Type="int" Nullable="false" />
+    <Property Name="HistoricoOrcamento" Type="ntext" Nullable="false" />
+    <Property Name="ValoresFornecedores" Type="ntext" />
+    <Property Name="ProdutosSolicitados" Type="ntext" />
+    <Property Name="TipoOrcamento" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="XMLDetalhesOrcamento" Type="ntext" />
+    <Property Name="DataUltimaAlteracao" Type="datetime" Nullable="false" />
+    <Property Name="IDCompradorOrigem" Type="int" />
+    <Property Name="CodPaciente" Type="varchar" MaxLength="18" />
+    <Property Name="NomePaciente" Type="varchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="Protocolos">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdEmpresa" Type="int" Nullable="false" />
+    <Property Name="NomeEmpresa" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="codProtocolo" Type="varchar" MaxLength="16" Nullable="false" />
+    <Property Name="dataHoraSolicitacao" Type="datetime" Nullable="false" />
+    <Property Name="TipoProduto" Type="varchar" MaxLength="1" Nullable="false" />
+    <Property Name="Status" Type="varchar" MaxLength="2" Nullable="false" />
+    <Property Name="CodBeneficiario" Type="varchar" MaxLength="17" />
+    <Property Name="NomeBeneficiario" Type="varchar" MaxLength="50" />
+    <Property Name="UnimedSolicitante" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Validacoes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdEmpresa" Type="int" Nullable="false" />
+    <Property Name="NomeEmpresa" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="IdArquivo" Type="int" Nullable="false" />
+    <Property Name="CodUnimedEnvio" Type="bigint" Nullable="false" />
+    <Property Name="NomeOriginalArquivo" Type="varchar" MaxLength="200" Nullable="false" />
+    <Property Name="Historico" Type="ntext" />
+    <Property Name="DataEnvio" Type="datetime" Nullable="false" />
+    <Property Name="DataDownload" Type="datetime" />
+    <Property Name="LoginResponsavel" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="XML" Type="ntext" />
+    <Property Name="Status" Type="smallint" Nullable="false" />
+    <Property Name="CaminhoArquivo" Type="varchar" MaxLength="200" Nullable="false" />
+    <Property Name="CodigoArquivo" Type="bigint" />
+    <Property Name="CodUnimedDestino" Type="int" Nullable="false" />
+    <Property Name="HashDoArquivo" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="StatusDoProtocolo" Type="smallint" />
+    <Property Name="VersaoDoSchema" Type="varchar" MaxLength="50" />
+    <Property Name="TipoDeGuia" Type="varchar" MaxLength="50" />
+    <Property Name="EmailEnviado" Type="smallint" />
+    <Property Name="NomePrestadorEnvio" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityContainer Name="IndicadorCloudMedModelStoreContainer">
+    <EntitySet Name="Autorizacoes" EntityType="Self.Autorizacoes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Documentos" EntityType="Self.Documentos" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Orcamentos" EntityType="Self.Orcamentos" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Protocolos" EntityType="Self.Protocolos" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Validacoes" EntityType="Self.Validacoes" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

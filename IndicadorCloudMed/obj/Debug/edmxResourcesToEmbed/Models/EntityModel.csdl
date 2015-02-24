@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="IndicadorCloudMedModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Autorizacoes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdEmpresa" Type="Int32" Nullable="false" />
+    <Property Name="NomeEmpresa" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Quantidade" Type="Int64" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Documentos">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdEmpresa" Type="Int32" Nullable="false" />
+    <Property Name="NomeEmpresa" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Quantidade" Type="Int64" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Orcamentos">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdEmpresa" Type="Int32" Nullable="false" />
+    <Property Name="NomeEmpresa" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Quantidade" Type="Int64" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Protocolos">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdEmpresa" Type="Int32" Nullable="false" />
+    <Property Name="NomeEmpresa" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Quantidade" Type="Int64" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Validacoes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdEmpresa" Type="Int32" Nullable="false" />
+    <Property Name="NomeEmpresa" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Quantidade" Type="Int64" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="IndicadorCloudMedEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Autorizacoes" EntityType="Self.Autorizacoes" />
+    <EntitySet Name="Documentos" EntityType="Self.Documentos" />
+    <EntitySet Name="Orcamentos" EntityType="Self.Orcamentos" />
+    <EntitySet Name="Protocolos" EntityType="Self.Protocolos" />
+    <EntitySet Name="Validacoes" EntityType="Self.Validacoes" />
+  </EntityContainer>
+</Schema>

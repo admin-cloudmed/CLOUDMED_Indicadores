@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="IndicadorCloudMedModelStoreContainer" CdmEntityContainer="IndicadorCloudMedEntities">
+    <EntitySetMapping Name="Autorizacoes">
+      <EntityTypeMapping TypeName="IndicadorCloudMedModel.Autorizacoes">
+        <MappingFragment StoreEntitySet="Autorizacoes">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IdEmpresa" ColumnName="IdEmpresa" />
+          <ScalarProperty Name="NomeEmpresa" ColumnName="NomeEmpresa" />
+          <ScalarProperty Name="Quantidade" ColumnName="Quantidade" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Documentos">
+      <EntityTypeMapping TypeName="IndicadorCloudMedModel.Documentos">
+        <MappingFragment StoreEntitySet="Documentos">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IdEmpresa" ColumnName="IdEmpresa" />
+          <ScalarProperty Name="NomeEmpresa" ColumnName="NomeEmpresa" />
+          <ScalarProperty Name="Quantidade" ColumnName="Quantidade" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Orcamentos">
+      <EntityTypeMapping TypeName="IndicadorCloudMedModel.Orcamentos">
+        <MappingFragment StoreEntitySet="Orcamentos">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IdEmpresa" ColumnName="IdEmpresa" />
+          <ScalarProperty Name="NomeEmpresa" ColumnName="NomeEmpresa" />
+          <ScalarProperty Name="Quantidade" ColumnName="Quantidade" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Protocolos">
+      <EntityTypeMapping TypeName="IndicadorCloudMedModel.Protocolos">
+        <MappingFragment StoreEntitySet="Protocolos">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IdEmpresa" ColumnName="IdEmpresa" />
+          <ScalarProperty Name="NomeEmpresa" ColumnName="NomeEmpresa" />
+          <ScalarProperty Name="Quantidade" ColumnName="Quantidade" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Validacoes">
+      <EntityTypeMapping TypeName="IndicadorCloudMedModel.Validacoes">
+        <MappingFragment StoreEntitySet="Validacoes">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IdEmpresa" ColumnName="IdEmpresa" />
+          <ScalarProperty Name="NomeEmpresa" ColumnName="NomeEmpresa" />
+          <ScalarProperty Name="Quantidade" ColumnName="Quantidade" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

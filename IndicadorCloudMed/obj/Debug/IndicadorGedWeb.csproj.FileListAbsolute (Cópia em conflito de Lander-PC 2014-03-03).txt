@@ -1,0 +1,3 @@
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\obj\Debug\IndicadorGedWeb.csprojResolveAssemblyReference.cache
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\obj\Debug\IndicadorGedWeb.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\obj\Debug\IndicadorGedWeb.pdb

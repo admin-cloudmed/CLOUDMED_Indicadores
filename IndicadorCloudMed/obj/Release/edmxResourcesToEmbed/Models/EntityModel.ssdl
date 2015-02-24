@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="IndicadorCloudMedModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Autorizacoes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdEmpresa" Type="int" Nullable="false" />
+    <Property Name="NomeEmpresa" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="Quantidade" Type="bigint" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Documentos">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdEmpresa" Type="int" Nullable="false" />
+    <Property Name="NomeEmpresa" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="Quantidade" Type="bigint" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Orcamentos">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdEmpresa" Type="int" Nullable="false" />
+    <Property Name="NomeEmpresa" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="Quantidade" Type="bigint" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Protocolos">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdEmpresa" Type="int" Nullable="false" />
+    <Property Name="NomeEmpresa" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="Quantidade" Type="bigint" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Validacoes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdEmpresa" Type="int" Nullable="false" />
+    <Property Name="NomeEmpresa" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="Quantidade" Type="bigint" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="IndicadorCloudMedModelStoreContainer">
+    <EntitySet Name="Autorizacoes" EntityType="Self.Autorizacoes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Documentos" EntityType="Self.Documentos" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Orcamentos" EntityType="Self.Orcamentos" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Protocolos" EntityType="Self.Protocolos" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Validacoes" EntityType="Self.Validacoes" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

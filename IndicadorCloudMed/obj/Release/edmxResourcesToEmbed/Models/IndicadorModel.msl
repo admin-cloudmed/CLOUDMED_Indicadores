@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="IndicadorCloudMedModelStoreContainer" CdmEntityContainer="IndicadorCloudMedEntities">
+    <EntitySetMapping Name="Autorizacoes">
+      <EntityTypeMapping TypeName="IndicadorCloudMedModel.Autorizacoes">
+        <MappingFragment StoreEntitySet="Autorizacoes">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IdEmpresa" ColumnName="IdEmpresa" />
+          <ScalarProperty Name="NomeEmpresa" ColumnName="NomeEmpresa" />
+          <ScalarProperty Name="Sequencia" ColumnName="Sequencia" />
+          <ScalarProperty Name="DataHora" ColumnName="DataHora" />
+          <ScalarProperty Name="codCartao" ColumnName="codCartao" />
+          <ScalarProperty Name="codLocal" ColumnName="codLocal" />
+          <ScalarProperty Name="codAtendente" ColumnName="codAtendente" />
+          <ScalarProperty Name="codPrestador" ColumnName="codPrestador" />
+          <ScalarProperty Name="codEspec" ColumnName="codEspec" />
+          <ScalarProperty Name="codSolicitante" ColumnName="codSolicitante" />
+          <ScalarProperty Name="codAMB" ColumnName="codAMB" />
+          <ScalarProperty Name="qtdeAMB" ColumnName="qtdeAMB" />
+          <ScalarProperty Name="codCID" ColumnName="codCID" />
+          <ScalarProperty Name="vlrAdicional" ColumnName="vlrAdicional" />
+          <ScalarProperty Name="descVlrAdicional" ColumnName="descVlrAdicional" />
+          <ScalarProperty Name="codStatus" ColumnName="codStatus" />
+          <ScalarProperty Name="nrGuia" ColumnName="nrGuia" />
+          <ScalarProperty Name="nomePaciente" ColumnName="nomePaciente" />
+          <ScalarProperty Name="nomePlano" ColumnName="nomePlano" />
+          <ScalarProperty Name="nomeEmpresaSass" ColumnName="nomeEmpresaSass" />
+          <ScalarProperty Name="Comentario" ColumnName="Comentario" />
+          <ScalarProperty Name="msgAutorizador" ColumnName="msgAutorizador" />
+          <ScalarProperty Name="EnvioTISS" ColumnName="EnvioTISS" />
+          <ScalarProperty Name="StringEnvio" ColumnName="StringEnvio" />
+          <ScalarProperty Name="StringRetorno" ColumnName="StringRetorno" />
+          <ScalarProperty Name="ViaCartao" ColumnName="ViaCartao" />
+          <ScalarProperty Name="DadosTISS" ColumnName="DadosTISS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Documentos">
+      <EntityTypeMapping TypeName="IndicadorCloudMedModel.Documentos">
+        <MappingFragment StoreEntitySet="Documentos">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IdEmpresa" ColumnName="IdEmpresa" />
+          <ScalarProperty Name="NomeEmpresa" ColumnName="NomeEmpresa" />
+          <ScalarProperty Name="docNumSerie" ColumnName="docNumSerie" />
+          <ScalarProperty Name="docTitulo" ColumnName="docTitulo" />
+          <ScalarProperty Name="docDataArquivamento" ColumnName="docDataArquivamento" />
+          <ScalarProperty Name="docQtdePag" ColumnName="docQtdePag" />
+          <ScalarProperty Name="docTamanho" ColumnName="docTamanho" />
+          <ScalarProperty Name="docProprietario" ColumnName="docProprietario" />
+          <ScalarProperty Name="docStatus" ColumnName="docStatus" />
+          <ScalarProperty Name="docFileNameDocumento" ColumnName="docFileNameDocumento" />
+          <ScalarProperty Name="docExtensaoArquivo" ColumnName="docExtensaoArquivo" />
+          <ScalarProperty Name="docNomeOriginalArquivo" ColumnName="docNomeOriginalArquivo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Orcamentos">
+      <EntityTypeMapping TypeName="IndicadorCloudMedModel.Orcamentos">
+        <MappingFragment StoreEntitySet="Orcamentos">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IdEmpresa" ColumnName="IdEmpresa" />
+          <ScalarProperty Name="NomeEmpresa" ColumnName="NomeEmpresa" />
+          <ScalarProperty Name="IDOrcamento" ColumnName="IDOrcamento" />
+          <ScalarProperty Name="IDCentralCompras" ColumnName="IDCentralCompras" />
+          <ScalarProperty Name="IDComprador" ColumnName="IDComprador" />
+          <ScalarProperty Name="DataPedidoOrcamento" ColumnName="DataPedidoOrcamento" />
+          <ScalarProperty Name="PrazoFinalOrcamento" ColumnName="PrazoFinalOrcamento" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="HistoricoOrcamento" ColumnName="HistoricoOrcamento" />
+          <ScalarProperty Name="ValoresFornecedores" ColumnName="ValoresFornecedores" />
+          <ScalarProperty Name="ProdutosSolicitados" ColumnName="ProdutosSolicitados" />
+          <ScalarProperty Name="TipoOrcamento" ColumnName="TipoOrcamento" />
+          <ScalarProperty Name="XMLDetalhesOrcamento" ColumnName="XMLDetalhesOrcamento" />
+          <ScalarProperty Name="DataUltimaAlteracao" ColumnName="DataUltimaAlteracao" />
+          <ScalarProperty Name="IDCompradorOrigem" ColumnName="IDCompradorOrigem" />
+          <ScalarProperty Name="CodPaciente" ColumnName="CodPaciente" />
+          <ScalarProperty Name="NomePaciente" ColumnName="NomePaciente" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Protocolos">
+      <EntityTypeMapping TypeName="IndicadorCloudMedModel.Protocolos">
+        <MappingFragment StoreEntitySet="Protocolos">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IdEmpresa" ColumnName="IdEmpresa" />
+          <ScalarProperty Name="NomeEmpresa" ColumnName="NomeEmpresa" />
+          <ScalarProperty Name="codProtocolo" ColumnName="codProtocolo" />
+          <ScalarProperty Name="dataHoraSolicitacao" ColumnName="dataHoraSolicitacao" />
+          <ScalarProperty Name="TipoProduto" ColumnName="TipoProduto" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="CodBeneficiario" ColumnName="CodBeneficiario" />
+          <ScalarProperty Name="NomeBeneficiario" ColumnName="NomeBeneficiario" />
+          <ScalarProperty Name="UnimedSolicitante" ColumnName="UnimedSolicitante" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Validacoes">
+      <EntityTypeMapping TypeName="IndicadorCloudMedModel.Validacoes">
+        <MappingFragment StoreEntitySet="Validacoes">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IdEmpresa" ColumnName="IdEmpresa" />
+          <ScalarProperty Name="NomeEmpresa" ColumnName="NomeEmpresa" />
+          <ScalarProperty Name="IdArquivo" ColumnName="IdArquivo" />
+          <ScalarProperty Name="CodUnimedEnvio" ColumnName="CodUnimedEnvio" />
+          <ScalarProperty Name="NomeOriginalArquivo" ColumnName="NomeOriginalArquivo" />
+          <ScalarProperty Name="Historico" ColumnName="Historico" />
+          <ScalarProperty Name="DataEnvio" ColumnName="DataEnvio" />
+          <ScalarProperty Name="DataDownload" ColumnName="DataDownload" />
+          <ScalarProperty Name="LoginResponsavel" ColumnName="LoginResponsavel" />
+          <ScalarProperty Name="XML" ColumnName="XML" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="CaminhoArquivo" ColumnName="CaminhoArquivo" />
+          <ScalarProperty Name="CodigoArquivo" ColumnName="CodigoArquivo" />
+          <ScalarProperty Name="CodUnimedDestino" ColumnName="CodUnimedDestino" />
+          <ScalarProperty Name="HashDoArquivo" ColumnName="HashDoArquivo" />
+          <ScalarProperty Name="StatusDoProtocolo" ColumnName="StatusDoProtocolo" />
+          <ScalarProperty Name="VersaoDoSchema" ColumnName="VersaoDoSchema" />
+          <ScalarProperty Name="TipoDeGuia" ColumnName="TipoDeGuia" />
+          <ScalarProperty Name="EmailEnviado" ColumnName="EmailEnviado" />
+          <ScalarProperty Name="NomePrestadorEnvio" ColumnName="NomePrestadorEnvio" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

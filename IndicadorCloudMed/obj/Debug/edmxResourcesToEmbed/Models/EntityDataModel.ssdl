@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="GedIndicadoresModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Documentos">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdEmpresa" Type="int" Nullable="false" />
+    <Property Name="NomeEmpresa" Type="varchar" MaxLength="200" Nullable="false" />
+    <Property Name="docNumSerie" Type="bigint" Nullable="false" />
+    <Property Name="docTitulo" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="docDataArquivamento" Type="datetime" Nullable="false" />
+    <Property Name="docQtdePag" Type="int" />
+    <Property Name="docTamanho" Type="bigint" />
+    <Property Name="docProprietario" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="docStatus" Type="int" Nullable="false" />
+    <Property Name="docFileNameDocumento" Type="varchar" MaxLength="500" />
+    <Property Name="docExtensaoArquivo" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="docNomeOriginalArquivo" Type="varchar" MaxLength="200" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="GedIndicadoresModelStoreContainer">
+    <EntitySet Name="Documentos" EntityType="Self.Documentos" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

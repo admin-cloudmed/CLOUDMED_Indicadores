@@ -1,0 +1,263 @@
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\IndicadorGedWeb.dll.config
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\IndicadorGedWeb.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\IndicadorGedWeb.pdb
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\Antlr3.Runtime.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\DotNetOpenAuth.Core.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\EntityFramework.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\Microsoft.Data.Edm.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\Microsoft.Data.OData.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\Newtonsoft.Json.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\System.Net.Http.Formatting.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\System.Spatial.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\System.Web.Helpers.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\System.Web.Http.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\System.Web.Http.OData.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\System.Web.Http.WebHost.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\System.Web.Mvc.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\System.Web.Optimization.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\System.Web.Razor.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\System.Web.WebPages.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\System.Web.WebPages.Razor.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\WebGrease.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\WebMatrix.Data.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\WebMatrix.WebData.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\Org.Mentalis.Security.Cryptography.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\Mono.Math.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\EntityFramework.xml
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\Newtonsoft.Json.xml
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\System.Net.Http.Formatting.xml
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\System.Web.Helpers.xml
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\System.Web.Http.xml
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\System.Web.Http.WebHost.xml
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\System.Web.Mvc.xml
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\System.Web.Razor.xml
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\System.Web.WebPages.xml
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\System.Web.WebPages.Razor.xml
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\WebMatrix.Data.xml
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\WebMatrix.WebData.xml
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\DotNetOpenAuth.Core.xml
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\System.Web.Http.OData.xml
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\Microsoft.Data.Edm.xml
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\Microsoft.Data.OData.xml
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\System.Spatial.xml
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\Org.Mentalis.Security.Cryptography.xml
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\Mono.Math.xml
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\de\System.Spatial.resources.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\es\System.Spatial.resources.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\fr\System.Spatial.resources.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\it\System.Spatial.resources.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\ja\System.Spatial.resources.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\ko\System.Spatial.resources.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\ru\System.Spatial.resources.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\obj\Debug\IndicadorCloudMed.csprojResolveAssemblyReference.cache
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\obj\Debug\IndicadorGedWeb.dll
+C:\Users\Lander\Dropbox\Public\VisualStudio2013\IndicadorGedWeb\IndicadorGedWeb\obj\Debug\IndicadorGedWeb.pdb
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\IndicadorGedWeb.dll.config
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\IndicadorGedWeb.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\IndicadorGedWeb.pdb
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\Antlr3.Runtime.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\DotNetOpenAuth.Core.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\EntityFramework.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\Microsoft.Data.Edm.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\Microsoft.Data.OData.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\Newtonsoft.Json.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\System.Net.Http.Formatting.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\System.Spatial.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\System.Web.Helpers.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\System.Web.Http.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\System.Web.Http.OData.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\System.Web.Http.WebHost.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\System.Web.Mvc.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\System.Web.Optimization.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\System.Web.Razor.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\System.Web.WebPages.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\System.Web.WebPages.Razor.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\WebGrease.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\WebMatrix.Data.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\WebMatrix.WebData.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\Org.Mentalis.Security.Cryptography.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\Mono.Math.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\EntityFramework.xml
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\Newtonsoft.Json.xml
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\System.Net.Http.Formatting.xml
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\System.Web.Helpers.xml
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\System.Web.Http.xml
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\System.Web.Http.WebHost.xml
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\System.Web.Mvc.xml
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\System.Web.Razor.xml
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\System.Web.WebPages.xml
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\System.Web.WebPages.Razor.xml
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\WebMatrix.Data.xml
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\WebMatrix.WebData.xml
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\DotNetOpenAuth.Core.xml
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\System.Web.Http.OData.xml
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\Microsoft.Data.Edm.xml
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\Microsoft.Data.OData.xml
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\System.Spatial.xml
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\Org.Mentalis.Security.Cryptography.xml
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\Mono.Math.xml
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\de\System.Spatial.resources.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\es\System.Spatial.resources.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\fr\System.Spatial.resources.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\it\System.Spatial.resources.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\ja\System.Spatial.resources.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\ko\System.Spatial.resources.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\ru\System.Spatial.resources.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\obj\Debug\IndicadorGedWeb.dll
+C:\Users\Lander\Dropbox\CloudMed\Projetos CloudMed\DotNET\VisualStudio2013\IndicadorCloudMed\IndicadorCloudMed\obj\Debug\IndicadorGedWeb.pdb
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\IndicadorGedWeb.dll.config
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\IndicadorGedWeb.dll
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\IndicadorGedWeb.pdb
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\Antlr3.Runtime.dll
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\DotNetOpenAuth.AspNet.dll
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\DotNetOpenAuth.Core.dll
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\DotNetOpenAuth.OAuth.dll
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\DotNetOpenAuth.OpenId.dll
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\EntityFramework.dll
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\Microsoft.Data.Edm.dll
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\Microsoft.Data.OData.dll
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\Microsoft.Web.Infrastructure.dll
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\Newtonsoft.Json.dll
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\System.Spatial.dll
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\System.Web.Helpers.dll
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\System.Web.Http.OData.dll
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\System.Web.Mvc.dll
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\System.Web.Optimization.dll
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\System.Web.Razor.dll
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\System.Web.WebPages.Deployment.dll
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\System.Web.WebPages.dll
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\System.Web.WebPages.Razor.dll
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\WebGrease.dll
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\WebMatrix.Data.dll
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\WebMatrix.WebData.dll
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\Org.Mentalis.Security.Cryptography.dll
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\Mono.Math.dll
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\EntityFramework.xml
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\Newtonsoft.Json.xml
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\System.Web.Helpers.xml
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\System.Web.Mvc.xml
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\System.Web.Razor.xml
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\System.Web.WebPages.xml
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\System.Web.WebPages.Deployment.xml
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\System.Web.WebPages.Razor.xml
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\WebMatrix.Data.xml
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\WebMatrix.WebData.xml
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\DotNetOpenAuth.AspNet.xml
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\DotNetOpenAuth.Core.xml
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\DotNetOpenAuth.OAuth.xml
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\DotNetOpenAuth.OpenId.xml
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\System.Web.Http.OData.xml
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\Microsoft.Data.Edm.xml
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\Microsoft.Data.OData.xml
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\System.Spatial.xml
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\Org.Mentalis.Security.Cryptography.xml
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\Mono.Math.xml
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\de\Microsoft.Data.Edm.resources.dll
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\es\Microsoft.Data.Edm.resources.dll
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\it\Microsoft.Data.Edm.resources.dll
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\de\Microsoft.Data.OData.resources.dll
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\es\Microsoft.Data.OData.resources.dll
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\fr\Microsoft.Data.OData.resources.dll
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\it\Microsoft.Data.OData.resources.dll
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\ja\Microsoft.Data.OData.resources.dll
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\ko\Microsoft.Data.OData.resources.dll
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\ru\Microsoft.Data.OData.resources.dll
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\de\System.Spatial.resources.dll
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\es\System.Spatial.resources.dll
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\fr\System.Spatial.resources.dll
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\it\System.Spatial.resources.dll
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\ja\System.Spatial.resources.dll
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\ko\System.Spatial.resources.dll
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\ru\System.Spatial.resources.dll
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\zh-Hans\System.Spatial.resources.dll
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\bin\zh-Hant\System.Spatial.resources.dll
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\obj\Debug\IndicadorCloudMed.csprojResolveAssemblyReference.cache
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\obj\Debug\IndicadorGedWeb.dll
+C:\inetpub\wwwroot\IndicadorCloudMed\IndicadorCloudMed\obj\Debug\IndicadorGedWeb.pdb
