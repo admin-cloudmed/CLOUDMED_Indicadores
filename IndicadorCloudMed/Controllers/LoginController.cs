@@ -16,7 +16,8 @@ namespace IndicadorGedWeb.Controllers
         // GET: /Login request user credentials tthen send to google/
         public ActionResult Index()
         {
-            return View();
+            //return View();
+            return View("../Home/Index", null);
         }
 
 

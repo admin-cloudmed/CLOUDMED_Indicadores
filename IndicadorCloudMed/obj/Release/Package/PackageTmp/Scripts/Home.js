@@ -1,114 +1,128 @@
-﻿jQuery(document).ready(function () {
-    //totalAutorizacoes();
-    totalDocumentos();
-    totalOrcamentos();
-    totalProtocolos();
-    totalValidacoes();
-
-    //setInterval("totalAutorizacoes()", 5000);
-    setInterval("totalDocumentos()", 5000);
-    setInterval("totalOrcamentos()", 5000);
-    setInterval("totalProtocolos()", 5000);
-    setInterval("totalValidacoes()", 5000);
+﻿//Load
+jQuery(document).ready(function () {
+    enterFirstView();
 })
 
-function playAudio() {
-    var audio = new Audio('http://www.oringz.com/oringz-uploads/sounds-908-sting.mp3');
-    audio.play();
+// Visions
+//First
+function enterFirstView() {
+    $('#body').animate({ 'background-color': 'red' }, 1000);
+
+    outSecondView();
+    outThirdView();
+    outFourthView();
+    outFifthView();
+    outSixthView();
+    $('#firstView').removeClass('animated bounceInLeft');
+    $('#firstView').removeClass('animated bounceOutRight');
+    $('#firstView').addClass('animated bounceInLeft');
+    setTimeout(function () { enterSecondView(); }, 5000);
 }
 
-//function totalAutorizacoes() {
-//    $.ajax({
-//        url: "/Autorizacoes/AutoCompleteTotalAutorizacoes",
-//        data: { idempresa: 0 },
-//        dataType: 'json',
-//        type: 'GET',
-//        success: function (data) {
-//            odometerAutorizacoes.innerHTML = data;
-//        }
-//    });
-//}
-
-function totalDocumentos() {
-    $.ajax({
-        url: "/Documentos/AutoCompleteTotalDocumentos",
-        data: { idempresa: 0 },
-        dataType: 'json',
-        type: 'GET',
-        success: function (data) {
-            var qtd = Session.get('odometerDocumentos');
-            if (qtd == undefined) {
-                Session.set('odometerDocumentos', "0");
-                qtd = 0;
-            }
-            if (qtd != data) {
-                playAudio();
-                Session.set('odometerDocumentos', data );
-            }
-            odometerDocumentos.innerHTML = data;
-        }
-    });
+function outFirstView() {
+    $('#firstView').addClass('animated bounceOutRight');
 }
 
-function totalOrcamentos() {
-    $.ajax({
-        url: "/Orcamentos/AutoCompleteTotalOrcamentos",
-        data: { idempresa: 0 },
-        dataType: 'json',
-        type: 'GET',
-        success: function (data) {
-            var qtd = Session.get('odometerOrcamentos');
-            if (qtd == undefined) {
-                Session.set('odometerOrcamentos', "0");
-                qtd = 0;
-            }
-            if (qtd != data) {
-                playAudio();
-                Session.set('odometerOrcamentos', data);
-            }
-            odometerOrcamentos.innerHTML = data;
-        }
-    });
+
+//Second
+function enterSecondView() {
+    $('#body').animate({ 'background-color': 'purple' }, 1000);
+    outFirstView();
+
+    outThirdView();
+    outFourthView();
+    outFifthView();
+    outSixthView();
+    $('#secondView').removeClass('animated bounceInLeft');
+    $('#secondView').removeClass('animated bounceOutRight');
+    $('#secondView').addClass('animated bounceInDown');
+    setTimeout(function () { enterThirdView(); }, 5000);
 }
 
-function totalProtocolos() {
-    $.ajax({
-        url: "/Protocolos/AutoCompleteTotalProtocolos",
-        data: { idempresa: 0 },
-        dataType: 'json',
-        type: 'GET',
-        success: function (data) {
-            var qtd = Session.get('odometerProtocolos');
-            if (qtd == undefined) {
-                Session.set('odometerProtocolos', "0");
-                qtd = 0;
-            }
-            if (qtd != data) {
-                playAudio();
-                Session.set('odometerProtocolos', data);
-            }
-            odometerProtocolos.innerHTML = data;
-        }
-    });
+function outSecondView() {
+    $('#secondView').addClass('animated bounceOutRight');
 }
 
-function totalValidacoes() {
-    $.ajax({
-        url: "/Validacoes/AutoCompleteTotalValidacoes",
-        data: { idempresa: 0 },
-        dataType: 'json',
-        type: 'GET',
-        success: function (data) {
-            var qtd = Session.get('odometerValidacoes');
-            if (qtd == undefined) {
-                Session.set('odometerValidacoes', "0");
-                qtd = 0;
-            }
-            if (qtd != data) {
-                playAudio();
-                Session.set('odometerValidacoes', data);
-            }
-            odometerValidacoes.innerHTML = data;
-        }
-    });
+
+//Third
+function enterThirdView() {
+    $('#body').animate({ 'background-color': 'transparent' }, 1000);
+    outFirstView();
+    outSecondView();
+
+    outFourthView();
+    outFifthView();
+    outSixthView();
+    $('#thirdView').removeClass('animated bounceInLeft');
+    $('#thirdView').removeClass('animated bounceOutRight');
+    $('#thirdView').addClass('animated bounceInLeft');
+    setTimeout(function () { enterFourthView(); }, 5000);
+}
+
+function outThirdView() {
+    $('#thirdView').addClass('animated bounceOutRight');
+}
+
+
+
+//Fourth
+function enterFourthView() {
+    $('#body').animate({ 'background-color': 'transparent' }, 1000);
+    outFirstView();
+    outSecondView();
+    outThirdView();
+
+    outFifthView();
+    outFifthView();
+    outSixthView();
+    $('#fourthView').removeClass('animated bounceInLeft');
+    $('#fourthView').removeClass('animated bounceOutRight');
+    $('#fourthView').addClass('animated bounceInLeft');
+    setTimeout(function () { enterFifthView(); }, 5000);
+}
+
+function outFourthView() {
+    $('#fourthView').addClass('animated bounceOutRight');
+}
+
+
+
+//Fifth
+function enterFifthView() {
+    $('#body').animate({ 'background-color': 'transparent' }, 1000);
+    outFirstView();
+    outSecondView();
+    outThirdView();
+    outFourthView();
+
+    outSixthView();
+    $('#fifthView').removeClass('animated bounceInLeft');
+    $('#fifthView').removeClass('animated bounceOutRight');
+    $('#fifthView').addClass('animated bounceInLeft');
+    setTimeout(function () { enterSixthView(); }, 5000);
+}
+
+function outFifthView() {
+    $('#fifthView').addClass('animated bounceOutRight');
+}
+
+
+
+//Sixth
+function enterSixthView() {
+    $('#body').animate({ 'background-color': 'transparent' }, 1000);
+    outFirstView();
+    outSecondView();
+    outThirdView();
+    outFourthView();
+    outFifthView();
+
+    $('#sixthView').removeClass('animated bounceInLeft');
+    $('#sixthView').removeClass('animated bounceOutRight');
+    $('#sixthView').addClass('animated bounceInLeft');
+    setTimeout(function () { enterFirstView(); }, 5000); //O último sempre tem que ser enterFirstView
+}
+
+function outSixthView() {
+    $('#sixthView').addClass('animated bounceOutRight');
 }

@@ -19,7 +19,7 @@ a {
 
 /* Header */
 header {
-    color: #4C8EFA;
+    color: black;
     font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
     font-size: 2.3em;
     margin-left: 20%;
@@ -31,145 +31,10 @@ header {
 
 /* Body */
 body {
-    margin: 0px;
-    border-top: solid 10px #F1F1F1;
-    background: white;
     font: normal 13px/1.3 "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
-    height: 100%;
-    padding: 0;
 }
 
 
-/* Top Menu */
-.containerm {
-    position: fixed;
-    padding: 0px;
-    width: 100%;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    height: 50px;
-    z-index: 2;
-}
-
-nav, ul, li, a {
-    margin: 0;
-    padding: 0;
-}
-
-.toggleMenu {
-    display: none;
-    background: #F1F1F1;
-    padding: 10px 15px;
-    color: #fff;
-    height: 30px;
-}
-
-.nav {
-    list-style: none;
-    *zoom: 1;
-    background: #F1F1F1;
-}
-
-    .nav:before,
-    .nav:after {
-        content: " ";
-        display: table;
-    }
-
-    .nav:after {
-        clear: both;
-    }
-
-    .nav ul {
-        list-style: none;
-        width: 9em;
-    }
-
-    .nav a {
-        padding: 10px 15px;
-        color: black;
-    }
-
-    .nav li {
-        position: relative;
-    }
-
-    .nav > li.last {
-        margin-right: 200px;
-    }
-
-    .nav > li {
-        width: auto;
-        float: right;
-        border-bottom: 1px solid black;
-        margin-left: 5px;
-        margin-right: 5px;
-    }
-
-        .nav > li.hover {
-            background-color: #4C8EFA;
-        }
-
-        .nav > li > .parent {
-            background-image: url("images/downArrow.png");
-            background-repeat: no-repeat;
-            background-position: right;
-        }
-
-        .nav > li > a {
-            display: block;
-        }
-
-        .nav > li > ul > li .parent {
-            background-image: url("images/downArrow.png");
-            background-repeat: no-repeat;
-            background-position: right;
-        }
-
-    .nav li ul {
-        position: absolute;
-        left: -9999px;
-    }
-
-    .nav > li.hover > ul {
-        left: 0;
-    }
-
-    .nav li li.hover ul {
-        left: 100%;
-        top: 0;
-    }
-
-    .nav li li a {
-        display: block;
-        background: #999999;
-        position: relative;
-        z-index: 100;
-        border-bottom: 1px solid black;
-    }
-
-    .nav > li > ul > li.hover {
-        background-color: #d1723b;
-    }
-
-        .nav > li > ul > li.hover > a {
-            background-color: #d1723b;
-        }
-
-    .nav li li li a {
-        background: #666;
-        z-index: 200;
-        border-bottom: 1px solid black;
-    }
-
-    .nav > li > ul > li.hover > ul > li.hover {
-        background-color: #f79963;
-    }
-
-        .nav > li > ul > li.hover > ul > li.hover > a {
-            background-color: #f79963;
-        }
 /*  Responsive layout limit 983 pixels */
 @media screen and (max-width: 983px) {
     .active {
